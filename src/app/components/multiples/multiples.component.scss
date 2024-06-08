@@ -1,0 +1,26 @@
+.table-wrapper {
+  overflow-x: auto; /* Permitir desplazamiento horizontal si la tabla es más ancha que su contenedor */
+}
+
+table {
+  width: 100%; /* Ancho de la tabla */
+  border-collapse: collapse; /* Colapsar bordes */
+}
+.table-container {
+  margin-bottom: 20px; /* Espaciado inferior entre cada tabla */
+}
+
+th,
+td {
+  border: 1px solid #191616; /* Añadir bordes */
+  padding: 8px; /* Espaciado interno */
+  text-align: left; /* Alinear texto a la izquierda */
+}
+
+th {
+  background-color: #232121; /* Color de fondo para las celdas de encabezado */
+}
+
+ion-content {
+  --background: #dcd3d3; /* Cambia el color de fondo aquí */
+}
